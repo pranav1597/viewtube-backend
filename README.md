@@ -91,25 +91,25 @@ viewtube-backend/
 ## API Endpoints
 
 ### Authentication
-- POST /api/auth/register - Register a new user
-- POST /api/auth/login - Log in an existing user
-- POST /api/auth/logout - Log out the current user
+- #### POST /api/auth/register - Register a new user
+- #### POST /api/auth/login - Log in an existing user
+- #### POST /api/auth/logout - Log out the current user
 
 ### Videos
-- POST /api/videos - Upload a new video (requires authentication)
-- GET /api/videos - Get a list of videos, with optional pagination, search, and sorting
-- DELETE /api/videos/
-- Delete a video by ID (requires authentication)
+- #### POST /api/videos - Upload a new video (requires authentication)
+- #### GET /api/videos - Get a list of videos, with optional pagination, search, and sorting
+- #### DELETE /api/videos/
+- #### Delete a video by ID (requires authentication)
   
 ### Likes
-- POST /api/videos/
-- /like - Toggle like for a video (requires authentication)
-- GET /api/users/liked-videos - Get the list of videos liked by the authenticated user
+- #### POST /api/videos/
+- #### /like - Toggle like for a video (requires authentication)
+- #### GET /api/users/liked-videos - Get the list of videos liked by the authenticated user
 
 ### Subscriptions
-- POST /api/users/
-- /subscribe - Toggle subscription to a channel (requires authentication)
-- GET /api/users/subscriptions - Get channels the user is subscribed to
+- #### POST /api/users/
+- #### /subscribe - Toggle subscription to a channel (requires authentication)
+- #### GET /api/users/subscriptions - Get channels the user is subscribed to
 
 
 ## Example API Usage
